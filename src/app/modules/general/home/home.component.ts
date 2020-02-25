@@ -2,6 +2,12 @@ import { Component, OnInit } from '@angular/core';
 import { Meta, Title } from '@angular/platform-browser';
 import { environment } from '../../../../environments/environment';
 
+import '@clr/core/icon';
+import { ClarityIcons } from '@clr/core/icon-shapes';
+import { computerIcon } from '@clr/core/icon-shapes/shapes/computer';
+
+ClarityIcons.addIcons(computerIcon);
+
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
