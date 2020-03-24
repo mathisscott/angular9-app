@@ -16,5 +16,5 @@ ClarityIcons.addIcons(homeIcon, helpInfoIcon, envelopeIcon, userIcon);
 })
 export class AppComponent {
   title = 'angular-starter';
-  version = 'Angular version 9.0.2';
+  version = 'Angular version 9.0.7';
 }
