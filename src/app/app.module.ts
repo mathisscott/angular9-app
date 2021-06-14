@@ -7,6 +7,8 @@ import { NotFoundComponent } from './modules/general/not-found/not-found.compone
 import { AppRoutingModule } from './app-routing.module';
 import { HttpClientModule } from '@angular/common/http';
 
+import { ClarityModule } from '@clr/angular';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -16,7 +18,8 @@ import { HttpClientModule } from '@angular/common/http';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    ClarityModule
   ],
   providers: [],
   bootstrap: [AppComponent],
